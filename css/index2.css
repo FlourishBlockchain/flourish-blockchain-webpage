@@ -96,3 +96,22 @@ body {
     display: none;
   }
 }
+
+/* join */
+#cta{
+    background-color: #f4f7fc;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+#cta a{
+    font-variant: small-caps;
+    display: inline-block;
+    background-color: #3db56b;
+    color: white;
+    padding: 0px 25px;
+    border-radius: 30px;
+}
