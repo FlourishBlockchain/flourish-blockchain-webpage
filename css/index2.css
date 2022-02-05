@@ -105,10 +105,12 @@ body {
     display: flex;
     justify-content: center;
     gap: 15px;
-}
-
-#cta a{
+    font-family: Montserrat-regular;
+  }
+  
+  #cta a{
     font-variant: small-caps;
+    font-family: Montserrat-semibold;
     display: inline-block;
     background-color: #3db56b;
     color: white;
