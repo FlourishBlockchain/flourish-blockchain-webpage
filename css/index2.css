@@ -60,6 +60,10 @@ body {
   margin-left: -15px;
 }
 
+.nav a{
+  font-family: Montserrat-semi-bold;
+}
+
 .links-horizontal {
   display: flex;
   justify-content: end;
