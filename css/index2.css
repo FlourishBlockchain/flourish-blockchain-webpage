@@ -169,11 +169,13 @@ body {
 }
 
 #home a {
-  color: white;
+font-variant: small-caps;
+  display: inline-block;
   background-color: #3db56b;
+  color: white;
   padding: 5px 30px;
   border-radius: 30px;
-  font-variant: small-caps;
+  font-family: Montserrat-semi-bold;
 }
 
 #home-bg {
