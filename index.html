@@ -6,14 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/index.css" />
-    <script defer src="./js/bootstrap.min.js"></script>
-    <script defer src="./js/bootstrap-jquery.js"></script>
-    <script defer src="./js/bootstrap-popper.js"></script>
     <title>Flourish Blockchain</title>
   </head>
   <body>
     <div class="container-fluid">
-      
+      <nav class="nav">
+        <div class="container">
+          <div class="row">
+            <div class="logo-container col-4">
+              <img src="./assets/images/FLB-Logo.png" alt="" />
+            </div>
+            <div class="col-8 links-container">
+              <div class="container">
+                <button id="nav-toggle">
+                  <div class="nav-toggle-dash"></div>
+                  <div class="nav-toggle-dash"></div>
+                  <div class="nav-toggle-dash"></div>
+                                        </button>
+                            <div id="links-not-mobile" class="container">
+                              <div class="row">
+                    <div class="col"><a href="">Home</a></div>
+                    <div class="col"><a href="">About</a></div>
+                    <div class="col"><a href="">Documents </a></div>
+                    <div class="col"><a href="">Blog </a></div>
+                    <div class="col">
+                      <a class="contact-us" href="">Contact us</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div id="links-mobile">
+                <div id="links">
+                  <a href="">Home</a>
+                  <a href="">About</a>
+                  <a href="">Documents</a>
+                  <a class="contact-us" href="">Contact us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
     </div>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/page-script.js"></script>
   </body>
 </html>
