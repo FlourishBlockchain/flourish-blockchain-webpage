@@ -119,22 +119,24 @@ body {
 }
 
 /* join */
-#cta {
-  background-color: #f4f7fc;
-  padding: 10px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-}
-
-#cta a {
-  font-variant: small-caps;
-  display: inline-block;
-  background-color: #3db56b;
-  color: white;
-  padding: 0px 25px;
-  border-radius: 30px;
+#cta{
+    background-color: #f4f7fc;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-family: Montserrat-regular;
+  }
+  
+  #cta a{
+    font-variant: small-caps;
+    font-family: Montserrat-semi-bold;
+    display: inline-block;
+    background-color: #3db56b;
+    color: white;
+    padding: 0px 25px;
+    border-radius: 30px;
 }
 
 /* home styles*/
