@@ -60,7 +60,7 @@ body {
   margin-left: -15px;
 }
 
-.nav a{
+.nav a {
   font-family: Montserrat-semi-bold;
 }
 
@@ -126,10 +126,12 @@ body {
   display: flex;
   justify-content: center;
   gap: 15px;
+  font-family: Montserrat-regular;
 }
 
 #cta a {
   font-variant: small-caps;
+  font-family: Montserrat-semi-bold;
   display: inline-block;
   background-color: #3db56b;
   color: white;
@@ -269,4 +271,36 @@ body {
     padding: 0px;
     text-align: left;
   }
+}
+
+/* figures */
+
+#figures {
+  position: relative;
+}
+
+#figures {
+  background-color: #f4f7fc;
+  padding: 50px 0px;
+}
+
+#figures .item {
+  margin-bottom: 30px;
+}
+
+#figures .item img {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+#figures .item p {
+  text-align: center;
+  padding: 5px;
+  max-width: 250px;
+  margin: auto;
+  font-family: Montserrat-semi-bold;
 }
