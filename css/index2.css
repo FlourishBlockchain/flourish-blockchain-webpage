@@ -304,3 +304,67 @@ body {
   margin: auto;
   font-family: Montserrat-semi-bold;
 }
+/* about */
+
+#about {
+  padding: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+#about h1 {
+  text-align: center;
+  font-family: Montserrat-extra-bold;
+  color: #0a2492;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+#about p.info{
+  max-width: 500px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+#about img {
+  max-width: 100%;
+  height: auto;
+}
+
+#about .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#about .text p {
+  line-height: 1.5;
+}
+#about .text p.header {
+  color: #0a2492;
+  font-family: Montserrat-extra-bold;
+}
+#about .text p.body {
+  max-width: 400px;
+}
+
+@media screen and (max-width: 480px) {
+  #about h1 {
+    font-size: 25px;
+  }
+  
+  #about .text p.header {
+    text-align: center;
+  }
+  #about .text p.body {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  #about h1 {
+    font-size: 5vw;
+  }
+
+}
