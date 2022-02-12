@@ -368,3 +368,53 @@ body {
   }
 
 }
+
+/* roadmap */
+#roadmap{
+  /* border: 1px solid; */
+}
+#roadmap h1{
+  font-family: Montserrat-extra-bold;
+  text-align: center;
+  padding: 10px;
+  color: #0a2492;
+}
+.roadmap-section{
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  padding: 5px;
+}
+.roadmap-section-reverse{
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  padding: 5px;
+}
+
+.roadmap-section-text-header{
+  font-weight: bold;
+}
+
+.roadmap-circle{
+  border: 10px solid;
+  padding: 30px;
+  border-radius: 50%;
+}
+
+.roadmap-section-cont{
+  padding: 30px 0px;
+  display: flex;
+}
+
+#roadmap h1{
+  border: 1px solid;
+}
