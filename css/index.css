@@ -408,6 +408,8 @@ body {
   border: 10px solid;
   padding: 30px;
   border-radius: 50%;
+  font-size: 35px;
+  font-weight: bold;
 }
 
 .roadmap-section-cont{
@@ -415,6 +417,3 @@ body {
   display: flex;
 }
 
-#roadmap h1{
-  border: 1px solid;
-}
