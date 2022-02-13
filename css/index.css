@@ -293,6 +293,9 @@ body {
 
 #figures .item {
   margin-bottom: 30px;
+  padding: 70px 0px;
+  background-color: white;
+  box-shadow: 3px 3px 3px 2px #666565;
 }
 
 #figures .item img {
