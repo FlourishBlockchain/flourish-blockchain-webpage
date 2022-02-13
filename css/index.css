@@ -320,13 +320,20 @@ body {
   padding: 30px;
   max-width: 1200px;
   margin: auto;
+  margin-bottom: 100px;
 }
 #about h1 {
   text-align: center;
   font-family: Montserrat-extra-bold;
+  font-size: 50px;
   color: #0a2492;
-  font-size: 60px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+#about .item{
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 50px;
 }
 
 #about p.info{
@@ -359,6 +366,13 @@ body {
   max-width: 400px;
 }
 
+#about .blue-stroke{
+  background-color: #0a2492;
+  width: 100%;
+  padding: 10px;
+  border-radius: 0px 0px 10px 10px;
+}
+
 @media screen and (max-width: 480px) {
   #about h1 {
     font-size: 25px;
@@ -374,7 +388,7 @@ body {
 
 @media screen and (min-width: 480px) {
   #about h1 {
-    font-size: 5vw;
+    /* font-size: 5vw; */
   }
 
 }
