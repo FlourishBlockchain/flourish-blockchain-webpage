@@ -395,7 +395,7 @@ body {
 
 /* roadmap */
 #roadmap{
-  /* border: 1px solid; */
+  margin-bottom: 100px;
 }
 #roadmap h1{
   font-family: Montserrat-extra-bold;
@@ -425,11 +425,13 @@ body {
 }
 
 .roadmap-section-text-header{
+  font-family: Montserrat-extra-bold;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .roadmap-circle{
-  border: 10px solid;
+  border: 15px solid;
   padding: 30px;
   border-radius: 50%;
   font-size: 35px;
@@ -439,5 +441,22 @@ body {
 .roadmap-section-cont{
   padding: 30px 0px;
   display: flex;
+}
+#roadmap .arrow >div{
+  color:#555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  font-family: Montserrat-extra-bold;
+} 
+
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 20px solid #555;
+	border-bottom: 10px solid transparent;
 }
 
