@@ -673,10 +673,59 @@ body {
   flex: 1;
 }
 
-.faq-trangle{
+.faq-trangle {
   width: 0;
-	height: 0;
-	border-left: 9px solid transparent;
-	border-right: 9px solid transparent;
-	border-top: 18px solid #0a2492;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-top: 18px solid #0a2492;
+}
+
+/* footer */
+#footer {
+  background-color: #0a2492;
+  padding: 50px 50px;
+}
+
+#footer p.header {
+  font-family: Montserrat-semi-bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#footer p {
+  color: white;
+  font-family: Montserrat-regular;
+  font-size: 15px;
+}
+
+.footer-cont {
+  max-width: 1200px;
+  padding: 20px;
+}
+.footer-cont > div {
+  padding: 10px;
+}
+
+#footer .icon {
+  display: inline-block;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+#footer input {
+  background-color: #0a2492;
+  padding: 10px;
+  color: white;
+  border: 1px solid white;
+  border-right: none;
+  border-radius: 10px 0px 0px 10px ;
+}
+#footer button {
+  padding: 10px;
+  border: 1px solid white;
+  background-color: #2d4edd;
+  border-radius: 0px 10px 10px 0px ;
+  color: white;
 }
