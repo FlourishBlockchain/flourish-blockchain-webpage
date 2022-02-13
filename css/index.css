@@ -268,7 +268,7 @@ body {
   .feature-icon img {
     width: 50px;
   }
-  .feature-icon span{
+  .feature-icon span {
     font-size: 13px;
   }
 }
@@ -330,13 +330,13 @@ body {
   margin-bottom: 30px;
 }
 
-#about .item{
+#about .item {
   max-width: 800px;
   margin: auto;
   margin-bottom: 50px;
 }
 
-#about p.info{
+#about p.info {
   max-width: 500px;
   text-align: center;
   margin: auto;
@@ -366,7 +366,7 @@ body {
   max-width: 400px;
 }
 
-#about .blue-stroke{
+#about .blue-stroke {
   background-color: #0a2492;
   width: 100%;
   padding: 10px;
@@ -377,7 +377,7 @@ body {
   #about h1 {
     font-size: 25px;
   }
-  
+
   #about .text p.header {
     text-align: center;
   }
@@ -390,20 +390,19 @@ body {
   #about h1 {
     /* font-size: 5vw; */
   }
-
 }
 
 /* roadmap */
-#roadmap{
+#roadmap {
   margin-bottom: 100px;
 }
-#roadmap h1{
+#roadmap h1 {
   font-family: Montserrat-extra-bold;
   text-align: center;
   padding: 10px;
   color: #0a2492;
 }
-.roadmap-section{
+.roadmap-section {
   /* border: 1px solid; */
   display: flex;
   flex-direction: column;
@@ -413,7 +412,7 @@ body {
   gap: 20px;
   padding: 5px;
 }
-.roadmap-section-reverse{
+.roadmap-section-reverse {
   /* border: 1px solid; */
   display: flex;
   flex-direction: column-reverse;
@@ -424,13 +423,13 @@ body {
   padding: 5px;
 }
 
-.roadmap-section-text-header{
+.roadmap-section-text-header {
   font-family: Montserrat-extra-bold;
   font-size: 20px;
   font-weight: bold;
 }
 
-.roadmap-circle{
+.roadmap-circle {
   border: 15px solid;
   padding: 30px;
   border-radius: 50%;
@@ -438,48 +437,49 @@ body {
   font-weight: bold;
 }
 
-.roadmap-section-cont{
+.roadmap-section-cont {
   padding: 30px 0px;
   display: flex;
 }
-#roadmap .arrow >div{
-  color:#555;
+#roadmap .arrow > div {
+  color: #555;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-size: 20px;
   font-family: Montserrat-extra-bold;
-} 
-
-.triangle-right {
-	width: 0;
-	height: 0;
-	border-top: 10px solid transparent;
-	border-left: 20px solid #555;
-	border-bottom: 10px solid transparent;
 }
 
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 20px solid #555;
+  border-bottom: 10px solid transparent;
+}
 
 /* meet team */
-#meet-team,#advisors{
+#meet-team,
+#advisors {
   background-color: #0a2492;
   padding: 10px;
 }
-#meet-team,#advisors h3{
+#meet-team,
+#advisors h3 {
   padding: 10px;
   color: white;
   font-family: Montserrat-extra-bold;
   text-align: center;
 }
 
-.team-members{
+.team-members {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 15px;
 }
-.team-members > div{
+.team-members > div {
   width: 200px;
   background-color: white;
   height: 400px;
@@ -491,17 +491,17 @@ body {
   align-items: center;
 }
 
-.team-members .image{
+.team-members .image {
   width: 150px;
   height: 150px;
   background-color: tomato;
   border-radius: 50%;
 }
-.team-members p{
+.team-members p {
   margin: 5px;
 }
 
-.team-members .icon{
+.team-members .icon {
   width: 70px;
   height: 70px;
   background-color: #0a2492;
@@ -509,11 +509,11 @@ body {
 }
 
 /* quote */
-#quote{
+#quote {
   background-color: #f4f7fc;
   padding: 30px;
 }
-#quote .image{
+#quote .image {
   max-width: 250px;
   height: 250px;
   padding: 20px;
@@ -521,7 +521,7 @@ body {
   border-radius: 50%;
 }
 
-#quote-sections{
+#quote-sections {
   margin-top: 30px;
   margin-bottom: 30px;
   display: flex;
@@ -529,18 +529,18 @@ body {
   align-items: center;
 }
 
-#quote p{
+#quote p {
   line-height: 1.5;
   font-family: Montserrat-regular;
 }
 
-#quote h3{
+#quote h3 {
   font-family: Montserrat-semi-bold;
 }
 
 /* advisors */
 
-.advisors{
+.advisors {
   max-width: 1000px;
   /* border: 1px solid; */
   margin: auto;
@@ -551,8 +551,7 @@ body {
   align-items: center;
 }
 
-
-.advisors .item{
+.advisors .item {
   /* border: 1px solid; */
   background-color: white;
   margin: 1px 0px;
@@ -562,7 +561,7 @@ body {
   display: flex;
 }
 
-.advisors .text{
+.advisors .text {
   /* border:1px solid ; */
   flex: 2;
   display: flex;
@@ -570,18 +569,18 @@ body {
   justify-content: center;
   align-items: center;
 }
-.advisors .text .icon{
-  border:1px solid ;
+.advisors .text .icon {
+  border: 1px solid;
   padding: 25px;
   border-radius: 50%;
   background-color: #0a2492;
 }
-.advisors .image{
+.advisors .image {
   /* border:1px solid ; */
   flex: 1;
   padding: 10px;
 }
-.advisors .image img{
+.advisors .image img {
   width: 100%;
   height: auto;
   border-radius: 50%;
@@ -590,56 +589,94 @@ body {
 #right-choices {
   padding: 30px;
 }
-#right-choices h2{
+#right-choices h2 {
   font-family: Montserrat-extra-bold;
   text-align: center;
   color: #0a2492;
-  padding: 20px;  
+  padding: 20px;
 }
-#right-choices h3{
-  text-align: center;  
+#right-choices h3 {
+  text-align: center;
 }
 
-.choice-cont{
+.choice-cont {
   max-width: 1000px;
   margin: auto;
   /* border: 1px solid; */
 }
 
-.choice{
+.choice {
   padding: 10px;
   /* border: 1px solid; */
 }
 
-.choice .image{
+.choice .image {
   height: 200px;
   background-color: #555;
   border-radius: 20px;
 }
 
-.image-info{
-  padding:10px ;
+.image-info {
+  padding: 10px;
   font-variant: small-caps;
   color: #0a2492;
 }
 
-.choice .header{
-font-size: 20px;
-color: #0a2492;
-font-family: Montserrat-extra-bold;
+.choice .header {
+  font-size: 20px;
+  color: #0a2492;
+  font-family: Montserrat-extra-bold;
 }
-.cta{
+.cta {
   /* border: 1px solid; */
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.cta a{
+.cta a {
   background-color: #3db56b;
   color: white;
   padding: 10px 40px;
   border-radius: 10px;
   font-variant: small-caps;
   font-family: Montserrat-semi-bold;
+}
+
+/* faqs */
+#faqs {
+  /* border: 1px solid; */
+  padding: 30px;
+}
+#faqs h1 {
+  text-align: center;
+  color: #0a2492;
+  font-family: Montserrat-extra-bold;
+}
+
+.faqs-cont {
+  /* border: 1px solid; */
+  padding: 20px;
+}
+
+.faq {
+  border-top: 3px solid #f2f2f2;
+  padding: 10px;
+  font-size: 20px;
+  font-family: Montserrat-semi-bold;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.faq p {
+  color: #0a2492;
+  flex: 1;
+}
+
+.faq-trangle{
+  width: 0;
+	height: 0;
+	border-left: 9px solid transparent;
+	border-right: 9px solid transparent;
+	border-top: 18px solid #0a2492;
 }
