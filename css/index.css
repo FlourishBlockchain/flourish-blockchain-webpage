@@ -25,6 +25,7 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  border: 1px solid;
 }
 .logo-container img {
   width: 100%;
@@ -440,6 +441,7 @@ body {
 .roadmap-section-cont {
   padding: 30px 0px;
   display: flex;
+  flex-wrap: wrap;
 }
 #roadmap .arrow > div {
   color: #555;
