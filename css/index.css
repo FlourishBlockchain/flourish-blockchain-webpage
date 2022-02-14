@@ -20,10 +20,15 @@ body {
 }
 
 .bordered{
-  border: 1px solid green;
+  border: 1px solid black;
 }
 .bordered-red{
   border: 1px solid red;
+}
+
+div{
+  border: 1px solid;
+  padding: 2px;
 }
 
 .logo-container {
