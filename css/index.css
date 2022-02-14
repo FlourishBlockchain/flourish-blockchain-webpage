@@ -26,10 +26,10 @@ body {
   border: 1px solid red;
 }
 
-div{
+/* div{
   border: 1px solid;
   padding: 2px;
-}
+} */
 
 .logo-container {
   max-height: 70px;
@@ -37,7 +37,6 @@ div{
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  border: 1px solid;
 }
 .logo-container img {
   width: 100%;
@@ -46,6 +45,7 @@ div{
 
 #nav-mobile {
   display: flex;
+  justify-content: flex-end;
   justify-content: flex-end;
   align-items: center;
 }
