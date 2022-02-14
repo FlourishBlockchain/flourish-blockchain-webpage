@@ -58,6 +58,7 @@ div{
   padding: 5px;
   background-color: #0a2492;
   border: 1px solid #fefefe;
+  float: left;
 }
 
 .nav-toggle-dash {
