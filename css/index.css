@@ -19,6 +19,13 @@ body {
   margin: 3px;
 }
 
+.bordered{
+  border: 1px solid green;
+}
+.bordered-red{
+  border: 1px solid red;
+}
+
 .logo-container {
   max-height: 70px;
   display: flex;
