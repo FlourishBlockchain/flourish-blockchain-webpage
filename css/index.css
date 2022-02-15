@@ -19,17 +19,19 @@ body {
   margin: 3px;
 }
 
-.bordered{
+.bordered {
   border: 1px solid black;
 }
-.bordered-red{
+.bordered-red {
   border: 1px solid red;
 }
 
-/* div{
+.nav {
   border: 1px solid;
-  padding: 2px;
-} */
+  /* padding: 2px; */
+  margin: auto;
+  max-width: 1200px;
+}
 
 .logo-container {
   max-height: 70px;
@@ -54,23 +56,23 @@ body {
 #nav-toggle {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 3px;
   padding: 5px;
   background-color: #0a2492;
   border: 1px solid #fefefe;
 }
 
 .nav-toggle-dash {
-  padding: 3px;
-  width: 30px;
+  padding: 2px;
+  width: 20px;
   background-color: white;
 }
 
 #nav-mobile {
-  margin-left: -15px;
+  /* border: 1px solid black; */
 }
 #nav-not-mobile {
-  margin-left: -15px;
+  /* border: 1px solid black; */
 }
 
 .nav a {
@@ -93,6 +95,14 @@ body {
   background-color: #3db56b;
   color: white;
   padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+.contact-us:hover {
+  background-color: #fff;
+  color: #3db56b;
+  border: 1px solid #3db56b;
+  text-decoration: none;
 }
 
 #nav-mobile-links {
@@ -112,6 +122,9 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+  body {
+    margin: 0px;
+  }
   .nav #nav-not-mobile {
     display: none;
   }
@@ -123,26 +136,31 @@ body {
   .nav #nav-not-mobile {
     display: block;
   }
-
+  
   .nav #nav-mobile,
   #nav-toggle,
   #nav {
     display: none;
   }
+  #cta a {
+  padding: 0px 10px;
+  border-radius: 5px;
+}
 }
 
-/* join */
+/* CTA */
 #cta {
   background-color: #f4f7fc;
   padding: 10px;
   text-align: center;
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 10px;
   font-family: Montserrat-regular;
 }
 
 #cta a {
+  border: 1px solid transparent;
   font-variant: small-caps;
   font-family: Montserrat-semi-bold;
   display: inline-block;
@@ -150,6 +168,12 @@ body {
   color: white;
   padding: 0px 25px;
   border-radius: 5px;
+}
+#cta a:hover {
+  background-color: #fff;
+  color: #3db56b;
+  border: 1px solid #3db56b;
+  text-decoration: none;
 }
 
 /* home styles*/
@@ -734,12 +758,12 @@ body {
   color: white;
   border: 1px solid white;
   border-right: none;
-  border-radius: 10px 0px 0px 10px ;
+  border-radius: 10px 0px 0px 10px;
 }
 #footer button {
   padding: 10px;
   border: 1px solid white;
   background-color: #2d4edd;
-  border-radius: 0px 10px 10px 0px ;
+  border-radius: 0px 10px 10px 0px;
   color: white;
 }
