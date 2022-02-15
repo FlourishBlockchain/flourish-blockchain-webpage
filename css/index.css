@@ -143,7 +143,7 @@ body {
     display: none;
   }
 
-  #cta{
+  #cta a,span{
     font-size: 14px;
   }
 
