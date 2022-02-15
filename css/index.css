@@ -201,7 +201,6 @@ body {
   text-align: center;
   color: white;
   padding-top: 20px;
-  font-size: 5vw;
   letter-spacing: 5px;
   font-weight: 900;
   font-family: Montserrat-extra-bold;
@@ -288,15 +287,15 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-  #home h1 {
-    font-size: 6vw;
+  #home{
     padding: 10px;
-    letter-spacing: 2px;
+  }
+  #home h1 {
+    padding: 10px;
   }
   #home h2 {
     padding: 0px;
     text-align: left;
-    font-size: 4.5vw;
   }
   #home h3 {
     padding-top: 20px;
