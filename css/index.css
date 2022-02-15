@@ -136,16 +136,21 @@ body {
   .nav #nav-not-mobile {
     display: block;
   }
-  
+
   .nav #nav-mobile,
   #nav-toggle,
   #nav {
     display: none;
   }
+
+  #cta{
+    font-size: 14px;
+  }
+
   #cta a {
-  padding: 0px 10px;
-  border-radius: 5px;
-}
+    padding: 0px 10px;
+    border-radius: 5px;
+  }
 }
 
 /* CTA */
