@@ -498,6 +498,7 @@ body {
 #about .text p.header {
   color: #0a2492;
   font-family: Montserrat-extra-bold;
+  padding: 10px;
 }
 #about .text p.body {
   max-width: 400px;
