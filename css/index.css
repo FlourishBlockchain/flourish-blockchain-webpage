@@ -647,34 +647,46 @@ body {
 #meet-team,
 #advisors {
   background-color: #0a2492;
-  padding: 10px;
+  padding: 30px 10px;
 }
-#meet-team,
-#advisors h3 {
-  padding: 10px;
+
+#meet-team h3{
+  padding: 30px;
   color: white;
   font-family: Montserrat-extra-bold;
+  text-shadow: 2px 2px 3px #2d2f37;
   text-align: center;
 }
 
 .team-members {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 15px;
+  padding: 10px;
+  gap: 10px;
 }
 .team-members > div {
-  width: 200px;
+  padding: 10px;
   background-color: white;
-  height: 400px;
   border-radius: 10px;
   display: flex;
   gap: 20px;
   flex-direction: column;
   justify-content: center;
+  box-shadow: 2px 2px 3px #2d2f37;
   align-items: center;
 }
 
+.team-members .image{
+  width: 100%;
+  max-height: 200px;
+  border: 1px solid #f2f2f2;
+  overflow: hidden;
+}
+.team-members .image img{
+  width: 100%;
+}
 .team-members .image {
   width: 150px;
   height: 150px;
@@ -682,14 +694,25 @@ body {
   border-radius: 50%;
 }
 .team-members p {
-  margin: 5px;
+  text-align: center;
+margin-bottom: 10px;
+font-family: Montserrat-semi-bold;
 }
 
 .team-members .icon {
-  width: 70px;
-  height: 70px;
+  width:50px;
+  height: 50px;
   background-color: #0a2492;
   border-radius: 50%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-members .icon a{
+  color: white;
+  font-size: 20px;
+  font-family: Montserrat-extra-bold;
+  text-decoration: underline;
 }
 
 /* quote */
@@ -722,6 +745,9 @@ body {
   font-family: Montserrat-semi-bold;
 }
 
+@media screen and (max-width:480px) {
+  
+}
 /* advisors */
 
 .advisors {

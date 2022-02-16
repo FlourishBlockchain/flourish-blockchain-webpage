@@ -2,46 +2,7 @@
      
      
     
-      <!-- meet the team -->
-      <div class="row" id="meet-team">
-        <div class="col-12">
-          <h3>Meet the team</h3>
-        </div>
-        <div class="col-12 team-members">
-          <div>
-            <div class="image"></div>
-            <div>
-              <p>Name</p>
-              <p>Degree</p>
-            </div>
-            <div class="icon"></div>
-          </div>
-          <div>
-            <div class="image"></div>
-            <div>
-              <p>Name</p>
-              <p>Degree</p>
-            </div>
-            <div class="icon"></div>
-          </div>
-          <div>
-            <div class="image"></div>
-            <div>
-              <p>Name</p>
-              <p>Degree</p>
-            </div>
-            <div class="icon"></div>
-          </div>
-          <div>
-            <div class="image"></div>
-            <div>
-              <p>Name</p>
-              <p>Degree</p>
-            </div>
-            <div class="icon"></div>
-          </div>
-        </div>
-      </div>
+    
       <!-- quote -->
       <div class="row" id="quote">
         <div class="col-12">
