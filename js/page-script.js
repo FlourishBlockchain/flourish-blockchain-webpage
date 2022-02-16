@@ -6,7 +6,9 @@ $(document).ready(() => {
         let elem =  e.target.id
         $(`.${elem}`).toggle(300)
         // console.log(elem)
-        $(`#faqs .faq-hide:not(.${elem})`).hide(300)
-
+        $(`#faqs .faq-hide:not(.${elem})`).hide()
     });
+    $("#nav-mobile-links a").click(()=>{
+        $("#nav-mobile-links").hide(100)
+    })
 });

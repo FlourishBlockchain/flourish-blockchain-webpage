@@ -955,7 +955,7 @@ font-family: Montserrat-semi-bold;
 /* footer */
 #footer {
   background-color: #0a2492;
-  padding: 50px 50px;
+  padding: 0px 50px;
 }
 
 #footer p.header {
@@ -999,4 +999,11 @@ font-family: Montserrat-semi-bold;
   background-color: #2d4edd;
   border-radius: 0px 10px 10px 0px;
   color: white;
+}
+
+@media screen and (max-width: 480px) {
+  #footer{
+    padding: 0px 0px;
+  }
+  
 }
