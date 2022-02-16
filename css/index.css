@@ -839,7 +839,7 @@ font-family: Montserrat-semi-bold;
 }
 
 .choice-cont {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: auto;
   /* border: 1px solid; */
 }
@@ -865,6 +865,16 @@ font-family: Montserrat-semi-bold;
   font-size: 20px;
   color: #0a2492;
   font-family: Montserrat-extra-bold;
+  /* border: 1px solid; */
+  text-align: left;
+}
+
+@media screen and (max-width:480px) {
+  .choice .header {
+    text-align: center;
+
+  }
+  
 }
 .cta {
   /* border: 1px solid; */
