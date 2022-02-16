@@ -712,13 +712,13 @@ font-family: Montserrat-semi-bold;
   color: white;
   font-size: 20px;
   font-family: Montserrat-extra-bold;
-  text-decoration: underline;
+  text-decoration: U;
 }
 
 /* quote */
 #quote {
   background-color: #f4f7fc;
-  padding: 30px;
+  padding: 10px;
 }
 #quote .image {
   max-width: 250px;
@@ -726,6 +726,8 @@ font-family: Montserrat-semi-bold;
   padding: 20px;
   border: 1px solid;
   border-radius: 50%;
+  padding-bottom: 20px;
+  margin:20px
 }
 
 #quote-sections {
@@ -738,11 +740,13 @@ font-family: Montserrat-semi-bold;
 
 #quote p {
   line-height: 1.5;
-  font-family: Montserrat-regular;
+  font-family: Montserrat-medium;
+  text-align: justify;
 }
 
 #quote h3 {
   font-family: Montserrat-semi-bold;
+  text-align: center;
 }
 
 @media screen and (max-width:480px) {
@@ -766,7 +770,7 @@ font-family: Montserrat-semi-bold;
   background-color: white;
   margin: 1px 0px;
   border-radius: 5px;
-  padding: 10px;
+  padding-top:  30px;
   margin: auto;
   display: flex;
 }
