@@ -895,16 +895,23 @@ font-family: Montserrat-semi-bold;
 /* faqs */
 #faqs {
   /* border: 1px solid; */
-  padding: 30px;
+  /* padding: 30px; */
 }
+
 #faqs h1 {
   text-align: center;
   color: #0a2492;
   font-family: Montserrat-extra-bold;
 }
 
+.faqs-cont p{
+  font-family: Montserrat-regular;
+}
+
 .faqs-cont {
   /* border: 1px solid; */
+  max-width: 1000px;
+  margin: auto;
   padding: 20px;
 }
 
@@ -914,20 +921,35 @@ font-family: Montserrat-semi-bold;
   font-size: 20px;
   font-family: Montserrat-semi-bold;
   display: flex;
+  align-items: center;
   margin-bottom: 10px;
 }
 
 .faq p {
   color: #0a2492;
   flex: 1;
+  margin-bottom: 0px;
+}
+
+.faq p:hover {
+  cursor: pointer;
+  color: #0a2492;
+  font-family: Montserrat-extra-bold;
+  flex: 1;
+  margin-bottom: 0px;
 }
 
 .faq-trangle {
   width: 0;
   height: 0;
-  border-left: 9px solid transparent;
-  border-right: 9px solid transparent;
-  border-top: 18px solid #0a2492;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid #0a2492;
+}
+
+.faq-hide{
+  display: none;
+  padding: 10px;
 }
 
 /* footer */
