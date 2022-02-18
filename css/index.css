@@ -17,6 +17,7 @@
 
 *{
   transition: 0.05s ease;
+  font-size: 16px;
 }
 
 body {
@@ -241,13 +242,13 @@ body {
   padding: 10px 30px;
   border-radius: 10px;
   font-family: Montserrat-semi-bold;
-  /* text-shadow: 1px 1px 2px #2d2f37; */
 }
+
 #home a.cta:hover {
   text-shadow: 0px 0px 1px #0c0c0c;
   background-color: #fff;
   color: #0a2492;
-  border: 2px solid #0a2492;
+  border: 2px solid transparent;
   text-decoration: none;
 }
 
@@ -264,7 +265,7 @@ body {
 #home .divide > div {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 10px;
 }
 
@@ -289,42 +290,52 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   color: white;
+}
+
+.featured-icons > div >div a{
+  border: 2px solid transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7px;
+  gap: 10px;
+}
+.featured-icons > div >div a:hover{
+  border: 2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid white;
+  text-decoration: none;
 }
 
 .featured-icons > div {
   margin: 0px;
   display: flex;
-  flex-direction: column;
-  gap: 10px;
-  /* border: 1px solid; */
+  flex-direction: row;
+  justify-content: space-evenly;
   position: relative;
 }
 
 
-.featured-icons > div > a {
-  border: 2px solid white;
-  border-radius: 5px;
-  width: 100%;
-  font-size: 13px;
-  margin: 0px;
+.featured-icons > div  a span  {
   text-align: center;
-  font-family: Montserrat-semi-bold;
-  color: white;
-  padding: 10px;
+  margin: 0px;
+  color: #fff;
 }
 
-.featured-icons > div > a:hover {
-  border: 2px solid transparent;
-  text-decoration: none;
-  background-color: white;
-  color: #0a2492;
-}
 
-.featured-icons > div > img {
-  max-width: 100%;
+
+.featured-icons > div  img {
+  width: 80%;
+  max-width: 100px;
+  margin: auto;
   border: 2px solid white;
   background-color: rgba(255, 255, 255, 0.844);
 }
@@ -353,12 +364,29 @@ body {
   }
 
   #home a {
-    width: 100%;
+    /* width: 100%; */
+    margin: auto;
     text-align: center;
-    font-size: 16px;
-    padding: 10px;
     color: #fff;
   }
+
+.featured-icons > div > a {
+  border: none;
+  /* border: 1px solid; */
+  /* font-size: 10px; */
+  text-align: center;
+}
+
+.cta-cont{
+  display: flex;
+  justify-content: center;
+}
+.cta-cont a{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
 
   #home .divide {
     padding: 0px;
@@ -367,7 +395,8 @@ body {
   #home .divide > div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
+    justify-content: space-evenly;
     padding: 0px;
     padding-bottom: 10px;
   }
@@ -376,10 +405,21 @@ body {
   }
 
 .featured-icons > div{
-  padding: 20px;
+  /* padding: 10px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-.featured-icons > div > img {
-  max-width: 60%;
+.featured-icons > div> div{
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.featured-icons > div  img {
+  max-width: 100%;
   margin: auto;
   box-shadow: 3px 3px 3px rgb(26, 25, 25);
 }
@@ -531,6 +571,9 @@ body {
 /* roadmap */
 #roadmap {
   margin-bottom: 100px;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 100px;
 }
 #roadmap h1 {
   font-family: Montserrat-extra-bold;
@@ -549,7 +592,7 @@ body {
   align-items: center;
   text-align: center;
   gap: 20px;
-  padding: 15px;
+  padding: 10px;
 }
 .roadmap-section-reverse {
   border: 1px solid #f2f2f2;
@@ -562,7 +605,7 @@ body {
   align-items: center;
   text-align: center;
   gap: 20px;
-  padding: 15px;
+  /* padding: 15px; */
 }
 .roadmap-section,.roadmap-section-reverse p{
   font-family: Montserrat-regular;
@@ -575,7 +618,7 @@ body {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  text-shadow: 1px 1px 1px #918f8f;
+  text-shadow: 0px 0px 1px #918f8f;
 }
 
 
@@ -590,13 +633,13 @@ body {
 .roadmap-circle {
   border: 15px solid;
   font-family: Montserrat-extra-bold;
-  padding: 30px;
+  padding: 20px;
   border-radius: 50%;
   font-size: 35px;
   font-weight: bold;
   box-shadow: 0px 0px 2px 0px  #706f6f, 0px 0px 2px 1px  #525151;;
   text-shadow: 1px 2px 1px #b4b1b1;
-  text-shadow: 1px 2px 1px #b4b1b1;
+  height: auto;
   
 }
 
@@ -606,9 +649,9 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  overflow-x: scroll;
-
+  gap: 5px;
+  /* border: 1px solid; */
+  width: 100%;
 }
 #roadmap .arrow > div {
   color: #71799b;
@@ -670,10 +713,10 @@ body {
 .team-members {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   align-items: center;
+  flex-wrap: wrap;
   padding: 10px;
-  gap: 10px;
+  gap: 15px;
   max-width: 1200px;
   margin: auto;
 }
@@ -682,12 +725,15 @@ body {
   background-color: white;
   border-radius: 10px;
   display: flex;
-  gap: 20px;
+  gap: 5px;
   flex-direction: column;
   justify-content: center;
   box-shadow: 2px 2px 3px #2d2f37;
   align-items: center;
   margin: auto;
+  flex: 1;
+  /* height: 1000px; */
+  /* width: 100%; */
 }
 
 .team-members .image{
@@ -700,8 +746,8 @@ body {
   width: 100%;
 }
 .team-members .image {
-  width: 150px;
-  height: 150px;
+  max-width: 150px;
+  max-height: 150px;
   border-radius: 50%;
 }
 .team-members p {
@@ -718,12 +764,28 @@ font-family: Montserrat-semi-bold;
   display:flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
 .team-members .icon a{
   color: white;
   font-size: 20px;
   font-family: Montserrat-extra-bold;
   text-decoration: U;
+}
+
+@media screen and (max-width:480px) {
+#meet-team{
+  padding: 10px;
+}
+
+.team-members{
+  flex-direction: column;
+}
+.team-members > div {
+  flex-direction: row;
+  width: 100%;
+}
+  
 }
 
 /* quote */
