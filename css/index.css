@@ -46,7 +46,9 @@ body {
 }
 .logo-container img {
   width: 100%;
+  padding: 20px;
   max-width: 200px;
+  margin-right: auto;
 }
 
 #nav-mobile {
@@ -72,12 +74,6 @@ body {
   background-color: white;
 }
 
-#nav-mobile {
-  /* border: 1px solid black; */
-}
-#nav-not-mobile {
-  /* border: 1px solid black; */
-}
 
 .nav a {
   font-family: Montserrat-semi-bold;
@@ -130,9 +126,11 @@ body {
 
 @media screen and (max-width: 480px) {
   * {
-    /* test */
     font-size: 14px;
   }
+  .logo-container img {
+  padding: 10px;
+}
   body {
     margin: 0px;
   }
@@ -570,13 +568,14 @@ body {
   font-family: Montserrat-regular;
   max-width: 600px;
   margin: auto;
-  text-align: justify;
+  text-align: center;
 }
 .roadmap-section-text-header {
   font-family: Montserrat-extra-bold;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
+  text-shadow: 1px 1px 1px #918f8f;
 }
 
 
@@ -585,14 +584,20 @@ body {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
+  text-shadow: 1px 1px 1px #b4b0b0;
 }
 
 .roadmap-circle {
   border: 15px solid;
+  font-family: Montserrat-extra-bold;
   padding: 30px;
   border-radius: 50%;
   font-size: 35px;
   font-weight: bold;
+  box-shadow: 0px 0px 2px 0px  #706f6f, 0px 0px 2px 1px  #525151;;
+  text-shadow: 1px 2px 1px #b4b1b1;
+  text-shadow: 1px 2px 1px #b4b1b1;
+  
 }
 
 .roadmap-section-cont {
@@ -601,9 +606,9 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* flex-wrap: wrap; */
   gap: 10px;
-  /* border: 1px solid; */
+  overflow-x: scroll;
+
 }
 #roadmap .arrow > div {
   color: #71799b;
@@ -624,6 +629,10 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+  .roadmap-section{
+    width: 100%;
+  }
+
   .roadmap-section-reverse {
     flex-direction: column;
   }
@@ -721,15 +730,16 @@ font-family: Montserrat-semi-bold;
 #quote {
   background-color: #f4f7fc;
   padding: 10px;
-  /* width: 100%; */
+}
+#quote .image img{
+  width: 100%;
+  border-radius: 50%;
+  height: auto;
 }
 #quote .image {
-  max-width: 250px;
-  height: 250px;
-  padding: 20px;
-  border: 1px solid;
-  border-radius: 50%;
-  padding-bottom: 20px;
+  width: 100%;
+  max-width: 300px;
+  max-height: 300px;
   margin:20px
 }
 
@@ -824,6 +834,60 @@ font-family: Montserrat-semi-bold;
   height: auto;
   border-radius: 50%;
 }
+
+/* documents */
+#documents{
+  padding:  50px;
+  border: 1px solid #f2f2f2;
+}
+
+#documents a{
+  padding: 20px;
+  background-color: #3db56b;
+  color: white;
+  font-family: Montserrat-semi-bold;
+  border-radius: 10px;
+  border: 2px solid transparent;
+}
+#documents a:hover{
+  padding: 20px;
+  border: 2px solid #3db56b;
+  text-decoration: none;
+  background-color: #fff;
+  color: #3db56b;
+  font-family: Montserrat-semi-bold;
+}
+
+#documents h3{
+  text-align: center;
+  font-family: Montserrat-extra-bold;
+  color: #061e8a;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+#documents > div> div{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 20px;
+}
+
+
+@media screen and (max-width: 480px) {
+#documents{
+  padding: 20px;
+}
+
+  #documents > div> div{
+  flex-direction: column;
+}
+#documents a{
+  padding: 10px 15px; 
+  text-align: center;
+}
+  
+}
+
 /* right choices */
 #right-choices {
   padding: 30px;
@@ -849,10 +913,13 @@ font-family: Montserrat-semi-bold;
   /* border: 1px solid; */
 }
 
+
 .choice .image {
   height: 200px;
   background-color: #555;
-  border-radius: 20px;
+  border-radius: 10px;
+  background-size: cover;
+  box-shadow: 0px 0px 3px #555;
 }
 
 .image-info {
@@ -870,12 +937,27 @@ font-family: Montserrat-semi-bold;
 }
 
 @media screen and (max-width:480px) {
+  #right-choices{
+    padding: 30px 0px;
+  }
   .choice .header {
     text-align: center;
 
   }
+  .image-info{
+    text-align: center;
+    font-family: Montserrat-semi-bold;
+    margin-bottom: 0px;
+  }
+  .choice h2{
+    padding: 10px;
+  }
   
 }
+
+
+
+
 .cta {
   /* border: 1px solid; */
   padding: 20px;
