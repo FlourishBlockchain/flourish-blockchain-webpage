@@ -451,15 +451,15 @@ body {
   box-shadow: 0px 0px 3px #424242;
   border: 5px solid #f2f2f2;
 }
-/* about */
+/* features */
 
-#about {
+#features {
   padding: 30px;
   max-width: 1200px;
   margin: auto;
   margin-bottom: 100px;
 }
-#about h1 {
+#features h1 {
   text-align: center;
   font-family: Montserrat-extra-bold;
   font-size: 50px;
@@ -467,13 +467,13 @@ body {
   margin-bottom: 30px;
 }
 
-#about .item {
+#features .item {
   max-width: 800px;
   margin: auto;
   margin-bottom: 50px;
 }
 
-#about p.info {
+#features p.info {
   max-width: 500px;
   text-align: center;
   margin: auto;
@@ -481,30 +481,30 @@ body {
   line-height: 1.5;
 }
 
-#about img {
+#features img {
   max-width: 100%;
   height: auto;
 }
 
-#about .text {
+#features .text {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-#about .text p {
+#features .text p {
   line-height: 1.5;
 }
-#about .text p.header {
+#features .text p.header {
   color: #0a2492;
   font-family: Montserrat-extra-bold;
   padding: 10px;
 }
-#about .text p.body {
+#features .text p.body {
   max-width: 400px;
 }
 
-#about .blue-stroke {
+#features .blue-stroke {
   background-color: #0a2492;
   width: 100%;
   padding: 10px;
@@ -512,20 +512,20 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-  #about h1 {
+  #features h1 {
     font-size: 25px;
   }
 
-  #about .text p.header {
+  #features .text p.header {
     text-align: center;
   }
-  #about .text p.body {
+  #features .text p.body {
     text-align: center;
   }
 }
 
 @media screen and (min-width: 480px) {
-  #about h1 {
+  #features h1 {
     /* font-size: 5vw; */
   }
 }
@@ -606,7 +606,7 @@ body {
   /* border: 1px solid; */
 }
 #roadmap .arrow > div {
-  color: #f2f2f2;
+  color: #71799b;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -619,7 +619,7 @@ body {
   width: 0;
   height: 0;
   border-top: 10px solid transparent;
-  border-left: 20px solid #f2f2f2;
+  border-left: 20px solid #71799b;
   border-bottom: 10px solid transparent;
 }
 
@@ -986,7 +986,7 @@ font-family: Montserrat-semi-bold;
   background-color: white;
 }
 #footer input {
-  background-color: #0a2492;
+  background-color: #fff;
   padding: 10px;
   color: white;
   border: 1px solid white;
@@ -1005,5 +1005,9 @@ font-family: Montserrat-semi-bold;
   #footer{
     padding: 0px 0px;
   }
+  .footer-cont {
+  max-width: 1200px;
+  padding: 20px 0px;
+}
   
 }
