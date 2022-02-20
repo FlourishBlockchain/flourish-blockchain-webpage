@@ -9,50 +9,65 @@
     <title>Flourish Blockchain</title>
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container-fluid" style="position: relative">
       <!--  nav -->
-      <div class="row nav">
-        <!-- logo -->
-        <div class="col-5 col-md-4">
-          <div class="logo-container">
-            <img src="./assets/images/FLB-logo-resized.svg" />
+      <div
+        class="row"
+        style="
+          position: sticky;
+          top: 0px;
+          background-color: white;
+          z-index: 2;
+          border-bottom: 1px solid #f2f2f2;
+        "
+      >
+        <div class="container-fluid">
+          <div class="row nav">
+            <!-- logo -->
+            <div class="col-5 col-md-4">
+              <div class="logo-container">
+                <img src="./assets/images/FLB-logo-resized.svg" />
+              </div>
+            </div>
+            <!-- desktop & tab links -->
+            <div id="nav-not-mobile" class="col-md-8 col-7">
+              <div class="links-horizontal">
+                <a href="#home">Home</a>
+                <a href="#meet-team">About</a>
+                <a href="#documents">Documents</a>
+                <a target="_blank" href="https://medium.com/@flourishblockchain"
+                  >Blog</a
+                >
+                <a href="#contact" class="contact-us">Contact us</a>
+              </div>
+            </div>
+            <!--nav toggler|shows on only mobile  -->
+            <div class="col-7" id="nav-mobile">
+              <button id="nav-toggle">
+                <div class="nav-toggle-dash"></div>
+                <div class="nav-toggle-dash"></div>
+                <div class="nav-toggle-dash"></div>
+              </button>
+            </div>
           </div>
-        </div>
-        <!-- desktop & tab links -->
-        <div id="nav-not-mobile" class="col-md-8 col-7">
-          <div class="links-horizontal">
-            <a href="#home">Home</a>
-            <a href="#meet-team">About</a>
-            <a href="#documents">Documents</a>
-            <a target="_blank" href="httphttps://medium.com/@flourishblockchain"
-              >Blog</a
-            >
-            <a href="#contact" class="contact-us">Contact us</a>
+          <!-- mobile nav | shows on only mobile-->
+          <div class="row">
+            <div class="col" id="nav-mobile-links">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#meet-team">About</a></li>
+                <li><a href="#documents">Documents</a></li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://medium.com/@flourishblockchain"
+                    >Blog</a
+                  >
+                </li>
+                <li><a href="#contact" class="contact-us">Contact us</a></li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <!--nav toggler|shows on only mobile  -->
-        <div class="col-7" id="nav-mobile">
-          <button id="nav-toggle">
-            <div class="nav-toggle-dash"></div>
-            <div class="nav-toggle-dash"></div>
-            <div class="nav-toggle-dash"></div>
-          </button>
-        </div>
-      </div>
-      <!-- mobile nav | shows on only mobile-->
-      <div class="row">
-        <div class="col" id="nav-mobile-links">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#meet-team">About</a></li>
-            <li><a href="#documents">Documents</a></li>
-            <li>
-              <a target="_blank" href="https://medium.com/@flourishblockchain"
-                >Blog</a
-              >
-            </li>
-            <li><a href="#contact" class="contact-us">Contact us</a></li>
-          </ul>
         </div>
       </div>
       <!--   nav -->
@@ -80,10 +95,9 @@
             <div class="col-md-6 col-12">
               <h2>The Blockchain for Personal Finance</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Provident at laborum incidunt nulla eveniet quam, rerum illum
-                voluptatem rem nisi esse cumque nihil veniam doloribus vel eius
-                tempore. Doloribus iusto labore nisi reiciendis ea.
+                With Flourish Blockchain, stablecoins for lower economies
+                investment opportunities that were once reserved for high net
+                worth individuals are now available to you.
               </p>
               <div class="cta-cont">
                 <a class="cta" href="#features"> learn more </a>
@@ -94,6 +108,15 @@
                 </div>
                 <div class="row featured-icons">
                   <div class="col-12">
+                    <div>
+                      <a target="_blank" href="https://www.digitaljournal.com/pr/flourish-blockchain-announces-plans-to-launch-stablecoins-for-lower-economies">
+                        <img
+                          src="./assets/images/Digital-Journal-logo.jpg"
+                          alt=""
+                        />
+                        <span>Digital Journal</span>
+                      </a>
+                    </div>
                     <div>
                       <a
                         target="_blank"
@@ -112,22 +135,14 @@
                         <span>Medium</span>
                       </a>
                     </div>
+                    
                     <div>
-                      <a target="_blank" href="">
+                      <a target="_blank" href="http://stocks.newsok.com/newsok/news/read/42202214">
                         <img
-                          src="./assets/images/bestcoinlist-logo.svg"
+                          src="./assets/images/newsok-logo.png"
                           alt=""
                         />
-                        <span>BestcoinList</span>
-                      </a>
-                    </div>
-                    <div>
-                      <a target="_blank" href="">
-                        <img
-                          src="./assets/images/presscenter-logo.svg"
-                          alt=""
-                        />
-                        <span>Presscenter</span>
+                        <span>Newsok</span>
                       </a>
                     </div>
                   </div>
@@ -263,10 +278,10 @@
                         class="roadmap-section-text-header"
                         style="color: #becc3b"
                       >
-                        Research Phase
+                        Researched the Flourish Blockchain and its Availability
                       </p>
 
-                      <p>Research the Flourish Blockchain and its viability</p>
+                      <p>Company registration, Assembled core team members.</p>
                     </div>
                   </div>
                   <div class="roadmap-section-reverse">
@@ -554,19 +569,18 @@
           <div class="row choice-cont">
             <div class="col-md-4 col-12 choice">
               <div
-                class="image"
-                style="
-                  background-image: url(./assets/images/liquidity-mining-img.png);
-                "
-              ></div>
-              <p class="image-info">BUILD</p>
+                class="image">
+                <img src="./assets/images/liquidity-mining-img (1).png" alt="">
+              </div>
+              <p class="image-info">MINING</p>
               <div>
                 <p class="header">Liquidity Mining</p>
                 <p class="body">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Eligendi culpa neque omnis saepe vero alias molestias
-                  voluptatum, blanditiis officia provident blanditiis officia
-                  blanditiis officia .
+                  Liquidity mining is a passive income method that helps crypto
+                  holders' profit by utilizing their existing assets, rather
+                  than leaving them inactive in cold storage. It is a process in
+                  which crypto holders lend assets to a decentralized exchange
+                  in return for rewards.
                 </p>
               </div>
               <div class="cta">
@@ -578,20 +592,19 @@
               </div>
             </div>
             <div class="col-md-4 col-12 choice">
-              <div
-                class="image"
-                style="
-                  background-image: url(./assets/images/staking-rewards-img.png);
-                "
-              ></div>
+             <div
+                class="image">
+                <img src="./assets/images/staking-img.png" alt="">
+              </div>
               <p class="image-info">STAKING</p>
               <div>
                 <p class="header">Staking Rewards</p>
                 <p class="body">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Eligendi culpa neque omnis saepe vero alias molestias
-                  voluptatum, blanditiis officia provident blanditiis officia
-                  blanditiis officia .
+                  Flourish Blockchain uses Delegated Proof of Stake (DPOS) which
+                  is an advancement of the fundamental concept of Proof of Stake
+                  (POS). Being a fork of Fantom Blockchain, the Flourish
+                  Blockchain leverages institutional grade security of Lachesis
+                  and aBFT consensus mechanism.
                 </p>
               </div>
               <div class="cta">
@@ -604,19 +617,18 @@
             </div>
             <div class="col-md-4 col-12 choice">
               <div
-                class="image"
-                style="
-                  background-image: url(./assets/images/personal-finance-img.png);
-                "
-              ></div>
-              <p class="image-info">MINING</p>
+                class="image">
+                <img src="./assets/images/personal-finance-img (1).png" alt="">
+              </div>
+              <p class="image-info">BUILD</p>
               <div>
                 <p class="header">Personal Finance</p>
                 <p class="body">
-                  PorchCam camera does not seem to be responding to any
-                  motion(even those well within the range of 50ft). Recording
-                  and all other functionality of the PorchCam device doesn't
-                  seem to be impacted .
+                  Flourish Blockchain is ushering in a new era of Personal
+                  Finance. The concept of Personal finance is not new to
+                  financial analysts and economists. However, the average joe on
+                  the street still finds it complex to understand and
+                  particularly why it is important.
                 </p>
               </div>
               <div class="cta">
@@ -635,7 +647,7 @@
       <!-- FAQs -->
       <div class="row" id="faqs">
         <div class="col-12">
-          <h1>FAQs</h1>
+          <h1>FAQs ?</h1>
         </div>
         <div class="col-12 m-auto faqs-cont">
           <div class="faq">
