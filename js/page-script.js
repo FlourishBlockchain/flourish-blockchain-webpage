@@ -20,4 +20,14 @@ $(document).ready(() => {
   $("#nav-mobile-links a").click(() => {
     $("#nav-mobile-links").hide(100);
   });
+
+  $(".contact-us").click(()=>{
+      let elem = document.getElementById("email-input")
+      setTimeout(()=>{elem.focus()},0)
+  })
+
+  $("#subscribe").click(()=>{
+    let elem = document.getElementById("email-input");
+    // logic to subscribe to newsletter goes here
+  })
 });
