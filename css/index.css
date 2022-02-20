@@ -674,10 +674,12 @@ body {
 @media screen and (max-width: 480px) {
   .roadmap-section{
     width: 100%;
+    padding: 10px;
   }
-
+  
   .roadmap-section-reverse {
     flex-direction: column;
+    padding: 10px;
   }
   
   #roadmap .arrow > div {
@@ -685,6 +687,7 @@ body {
   }
   .roadmap-section-cont {
     flex-direction: column;
+    padding: 20px;
   }
   
 }
@@ -731,19 +734,21 @@ body {
   box-shadow: 2px 2px 3px #2d2f37;
   align-items: center;
   margin: auto;
-  flex: 1;
-  /* height: 1000px; */
+  /* flex: 1; */
+  /* min-height: 400; */
   /* width: 100%; */
 }
 
 .team-members .image{
   width: 100%;
-  max-height: 200px;
+  min-height: 100px;
+  max-height: 100px;
   border: 1px solid #f2f2f2;
   overflow: hidden;
 }
 .team-members .image img{
   width: 100%;
+  height: auto;
 }
 .team-members .image {
   max-width: 150px;
@@ -754,6 +759,9 @@ body {
   text-align: center;
 margin-bottom: 10px;
 font-family: Montserrat-semi-bold;
+/* min-height:70px; */
+/* min-height:40px; */
+/* border: 1px solid; */
 }
 
 .team-members .icon {
@@ -794,15 +802,19 @@ font-family: Montserrat-semi-bold;
   padding: 10px;
 }
 #quote .image img{
-  width: 100%;
+  width: 90%;
   border-radius: 50%;
+  max-width: 300px;
+  max-height: 300px;
   height: auto;
+  margin: auto;
+  margin:20px;
 }
 #quote .image {
   width: 100%;
-  max-width: 300px;
-  max-height: 300px;
-  margin:20px
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #quote-sections {
@@ -817,6 +829,7 @@ font-family: Montserrat-semi-bold;
   line-height: 1.5;
   font-family: Montserrat-medium;
   text-align: justify;
+  padding: 10px;
 }
 
 #quote h3 {
@@ -1059,7 +1072,7 @@ font-family: Montserrat-semi-bold;
   padding: 20px;
 }
 
-.faq {
+.faq,.faq-sub {
   border-top: 3px solid #f2f2f2;
   padding: 10px;
   font-size: 20px;
@@ -1069,13 +1082,13 @@ font-family: Montserrat-semi-bold;
   margin-bottom: 10px;
 }
 
-.faq p {
+.faq p,.faq-sub p {
   color: #0a2492;
   flex: 1;
   margin-bottom: 0px;
 }
 
-.faq p:hover {
+.faq p:hover,.faq-sub p:hover{
   cursor: pointer;
   color: #0a2492;
   font-family: Montserrat-extra-bold;
@@ -1124,11 +1137,16 @@ font-family: Montserrat-semi-bold;
 
 #footer .icon {
   display: inline-block;
-  padding: 15px;
+  /* padding: 15px; */
   margin: 10px;
   border-radius: 50%;
-  background-color: white;
+  background-color: #061e8a;
 }
+
+#footer .icon img{
+  display: inline-block;
+}
+
 #footer input {
   background-color: #fff;
   padding: 10px;
@@ -1137,6 +1155,11 @@ font-family: Montserrat-semi-bold;
   border-right: none;
   border-radius: 10px 0px 0px 10px;
 }
+
+#footer .mail{
+  color: white;
+}
+
 #footer button {
   padding: 10px;
   border: 1px solid white;
